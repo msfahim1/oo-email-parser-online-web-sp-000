@@ -5,3 +5,6 @@
 
 class EmailParser
   attr_accessor :name, :csvemails
+
+
+end
