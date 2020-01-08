@@ -6,5 +6,6 @@
 class EmailParser
   attr_accessor :name, :csvemails
 
-
+def initialize(csvemails)
+  @csvemails = csvemails
 end
